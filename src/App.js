@@ -18,11 +18,11 @@ function App() {
             <header>
                 <div className="logo">Олег Марков</div>
                 <div className="links">
-                    <a className="active" href="#">
+                    <a className="active" href="/">
                         Home
                     </a>
-                    <a href="#">About Me</a>
-                    <a href="#">Contact</a>
+                    <a href="/about">About Me</a>
+                    <a href="/contact">Contact</a>
                 </div>
             </header>
             <section className="img-container">
