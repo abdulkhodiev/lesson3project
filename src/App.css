@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.links {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.393);
+    font-size: 1.5rem;
+}
+
+.links .active {
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.img-container {
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem;
+}
